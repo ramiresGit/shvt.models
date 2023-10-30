@@ -1,4 +1,4 @@
-package main
+package shvtmodels
 
 import "github.com/uptrace/bun"
 
@@ -42,8 +42,4 @@ type TyreRequestModel struct {
 type Meta struct {
 	Created   string `json:"created"`
 	Generator string `json:"generator"`
-}
-
-func main() {
-
 }
